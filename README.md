@@ -1,6 +1,8 @@
 # sugar-airdrop-list-reformatter
 reformats your holders list json to work with sugar airdrop from metaplex.
 
+PREREQ: download python to be able to run the scrpt.
+
 sugar airdrop is a tool from the sugar program from metaplex that allows you to mint nfts directly to a list of public wallet addresses. it also allows you to choose the amount each public wallet address gets.
 
 it requires a specific json format for the program to run correctly. if you are pulling a lot of public wallet addresses, it would be annoying to format it all manually so this guide will save you time.
