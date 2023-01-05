@@ -22,9 +22,11 @@ Your airdrop list needs to be in a specific json format for the program to run c
 
 **3.** Move the file to the same directory as your `cache.json` from your ongoing sugar mint. Rename your newly downloaded file to `airdrop_list.json`
 
-**4.** Take the script I made and move it to the same directory as the `cache.json` and `airdrop_list.json` file.
+**4.** Download the `sugar_airdrop_reformatter.py` and move it to the same directory as the `cache.json` and `airdrop_list.json` file.
 
-**5.** Double click the script file, it will briefly open a CLI window and then automatically close. If you check your `airdrop_list.json` file now you will see that its properly formatted for the sugar airdrop tool.
+**5.** Double click the `sugar_airdrop_reformatter.py`, it will briefly open a CLI window and then automatically close. 
+
+*If you open and check your `airdrop_list.json` file now you will see that its properly formatted for the sugar airdrop tool.*
 
 **6.** Now in the CLI run `sugar airdrop --airdrop-list airdrop_list.json`
 
